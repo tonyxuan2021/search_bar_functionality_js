@@ -8,6 +8,19 @@
     <title>Document</title>
   </head>
   <body>
+    <div class="search-wrapper">
+      <label for="search">Search User</label>
+      <input type="search" name="" id="search" data-search/>
+    </div>
+    <div class="user-cards" data-user-cards-container>
+      <template data-user-template>
+        <div class="card">
+          <div class="header" data-header>My Name</div>
+          <div class="body" data-body>Email@gmail.com</div>
+        </div>
+      </template>
+    </div>
+
     <script src="app.js"></script>
   </body>
 </html>
